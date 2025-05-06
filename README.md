@@ -15,13 +15,15 @@ Build:
 
 ```bash
 docker build -t <name> .
+```
 
 Run:
 
 ```bash
 docker run -it -v $(pwd)/repo:/repo -t <name>
+```
 
 Run again:
 ```bash
 docker start -ai <cont_name>
-
+```
